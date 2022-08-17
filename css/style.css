@@ -23,6 +23,15 @@
   /* Box-shawdow */
   --box-shadow: 0 2rem 3rem var(--color-light);
 }
+/* Dark Theme variables */
+.dark-theme-variables {
+  --color-background: #181a1e;
+  --color-white: #202528;
+  --color-dark: #edeffd;
+  --color-dark-variant: #a3bdcc;
+  --color-light: rgba(0, 0, 0, 0.4);
+  --box-shadow:#0 2ren 3rem var(--color-light);  
+}
 * {
   appearance: none;
   border: 0;
@@ -117,7 +126,7 @@ aside .close {
   display: none;
 }
 aside .sidebar {
-  background: white;
+  background: var(--color-white);
   display: flex;
   flex-direction: column;
   height: 86vh;
